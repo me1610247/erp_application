@@ -1,0 +1,17 @@
+/* header.css */
+.text-link {
+  color: #fff; /* Set all links to white color */
+  font-size: 1.6rem; /* Set the same text size for all links */
+  font-weight: normal; /* Set the same font weight for all links */
+  text-decoration: none; /* Remove underline from all links */
+  margin-right: 20px; /* Fixed space between each link */
+}
+
+.text-link:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+.text-link.active {
+  text-decoration: underline; /* Add underline to the selected link */
+  font-weight: bold; /* Make the selected link bold */
+}

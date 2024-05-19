@@ -1,0 +1,49 @@
+/* card.css */
+.card {
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto;
+  }
+  
+  .custom-card {
+    width: 100%; /* Make the card take full width of its container */
+    padding: 20px;
+    background-color: rgba(144, 238, 144, 0.6);
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .custom-card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  .custom-card2 {
+    width: 100%; /* Make the card take full width of its container */
+    padding: 20px;
+    background-color: silver;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .custom-card2:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  
+  .btnYellow {
+    background-color: #fbbf24; /* Tailwind's yellow-800 */
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+  }
+  
+  .btnYellow:hover {
+    background-color: #f59e0b; /* Darker yellow on hover */
+  }
+  

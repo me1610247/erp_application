@@ -1,0 +1,137 @@
+/* index.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container Styles */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .inner-container {
+    background-color: #f5f5f5;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input Group Styles */
+  .input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .input-group-column {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .input-group-column:last-child {
+    margin-right: 0;
+  }
+  
+  .text-label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .input-full {
+    width: 100%;
+  }
+  
+  .input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .input-row > .input {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .input-row > .input:last-child {
+    margin-right: 0;
+  }
+  
+  /* Button Styles */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .input-group {
+      flex-direction: column;
+    }
+  
+    .input-group-column {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .input-row {
+      flex-direction: column;
+    }
+  
+    .input-row > .input {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .input-row > .input:last-child {
+      margin-bottom: 0;
+    }
+  
+    .mr-23 {
+      margin-right: 0;
+    }
+  
+    .mr-19 {
+      margin-right: 0;
+    }
+  
+    .md-ml-auto {
+      margin-left: auto;
+    }
+  
+    .md:mr-0 {
+      margin-right: 0;
+    }
+  
+    .md:w-full {
+      width: 100%;
+    }
+  }
